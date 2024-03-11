@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .vertical{
+                border : 3px solid black;
+                margin-left: 500px;
+                margin-right: 300px;
+                transform: rotate(90deg);
+            }
+            .horizontal{
+                border : 3px solid black;
+                margin-top: 200px;
+                margin-left: 500px;
+                margin-right: 300px;
+              
+
+            }
+
+            .slant{ border : 3px solid black;
+                margin-left: 500px;
+                margin-right: 300px;
+                margin-bottom:10px;
+                transform: rotate(0deg) ;
+                animation: transform 4s ease 2s forwards;
+            }
+            @keyframes transform{
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%
+                {
+                    transform: rotate(-60deg);
+                }
+
+            }
+            
+        </style>
+    </head>
+    <body>
+     <div class="vertical">
+          
+     </div>
+     <div class="horizontal">
+        
+     </div>
+     <div class="slant"></div>
+     
+    </body>
+</html>

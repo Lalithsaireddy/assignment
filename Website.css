@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin :0;
+  padding:0;
+  
+}
+body{
+  background: #dadada;
+}
+a{
+  text-decoration: none;
+  color : inherit;
+}
+nav{
+  display : flex;
+  align-items:centre;
+  justify-content: space-between;
+   background-color: #131921;
+   padding:10px 20px;
+   color : #fff;
+}
+.nav-country{
+  display: flex;
+  align-items : end;
+  margin-left:15px;
+  font-size: 13px;
+  
+
+}
+.nav-country h1{
+  font-size: 10px;
+}
+.nav-search{
+  flex:1;
+  display :flex;
+  align-items: center;
+  background : #fff;
+  color : gray;
+  max-width: 2000px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+.nav-search-category{
+  display : flex;
+  align-items: center;
+  padding : 10px 20px;
+  gap : 10px;
+  background: #fff;
+  border-radius : 4px 0px 0px 4px;
+
+}
+.nav-search-input{
+  width:100%;
+  border: none;
+  outline : none;
+  padding-left: 15px;
+}
+.nav-search-icon{
+  background:yellow;
+  height :44px;
+  width:144px;
+}
+.nav-language{
+  display : flex;
+  font-size: 20px;
+  gap : 10px;
+}
+.nav-text{
+  margin-left : 15px;
+
+}
+.nav-text h1{
+  font-size: 13px;
+}
+.nav-text p{
+  font-size: 10px;
+}
+.nav-cart{
+  display : flex;
+  align-items: center;
+}
+.nav-bottom
+{display : flex;
+  align-items: center;
+  gap :10px;
+  padding: 15px 20px;
+  background: #232f3e;
+  color :#fff;
+
+}
+.nav-bottom div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500px;
+}
+.header-slider ul{
+display: flex;
+overflow-y: hidden;
+}
+.heeader-img{
+    max-width: 100%;
+}
+.header-slider a{
+
+  position :absolute;
+  top :20%;
+  z-index: 1;
+  padding: 5vh 1vw;
+  background: #dadada;
+  color :#131921;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight:660px;
+  font-size:18px;
+}
+.control-next{
+   right : 0px;
+   top:400px;
+}
+.box-row{
+  display : flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+  margin :20px 30px;
+
+
+}
+.box-col{
+  display : flex;
+  flex-direction :column;
+  max-width: 24%;
+
+  background: #fff;
+}
+.box-col a{
+  font-size : 13px;
+  color: #009990;
+}
+.product-slider{
+  background: #fff;
+  margin:0px 30px;
+  padding:20px;
+  margin-bottom :15px;
+}
+.products{
+  display: flex;
+  overflow-x : auto;
+  gap:20px;
+
+
+}
+.products img{
+  max-width: 200px;
+  max-height : 200;
+}
+.products::-webkit-scrollbar{
+  display :none;
+}

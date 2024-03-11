@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <style>
+        body {
+            background-color: #ccc; 
+        }
+        .container {
+            margin-left :500px;
+            max-width: 500px;
+            
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+       
+    
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Employee Registration Form</h2>
+        <form action="success.html" method="post">
+            <label for="name">Name </label>
+            <input type="text" id="name" name="name" class="name">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" id="Male">
+            Male
+        </input>
+        <input type="radio" id="gender" id="Fe-Male">
+           Fe-Male 
+        </input>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="email">
+            <label for="password">Password </label>
+            <input type="password" id="password" name="password" class="password">
+            <label for="address">Address</label>
+            <textarea id="address" name="address"></textarea>
+            <h3>Educational Details</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Qualifications</th>
+                        <th>Year</th>
+                        <th>Institution</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="1"></td>
+                        <td><input type="text" name="year1"></td>
+                        <td><input type="text" name="institution1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="2"></td>
+                        <td><input type="text" name="year2"></td>
+                        <td><input type="text" name="institution2"></td>
+                    </tr>
+                    <tr>
+                        
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <td><input type="text" name="3"></td>
+                    <td><input type="text" name="year3"></td>
+                    <td><input type="text" name="institution3"></td>
+                </tfoot>
+            </table>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    <script src="Script1.js"></script>
+  
+</body>
+</html>
